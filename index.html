@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:'Poppins', sans-serif; ;
+        }
+        body{
+            height: 100vh;
+            width: auto;
+        }
+        .logo{
+            border-radius: 50%;
+            width: 205px;
+            height: 104px;
+        }
+        .title-img{
+            width:350px;
+            height: 230px;
+            margin: 20px;
+            float: left;
+
+        
+        }
+        section{
+            height: 410px;
+            display: flex;
+            /* align-items: center; */
+        
+        }
+        h1{
+            font-size: 50px;
+            letter-spacing: 4px;
+            margin-bottom: 30px;
+        }
+        .main{
+            margin:0 50px;
+            
+
+
+        }
+        .card-text{
+            text-align: justify;
+            font-size: 14px;
+
+        }
+        .card-title{
+            font-size: 20px;
+            margin: 20px 0;
+        }
+
+        footer{
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;    
+            padding-right: 10px; 
+            color: blue;         
+        }
+        
+        @media(max-width:768px){
+            .main{
+                margin: 0 20px;
+            }
+            .logo{
+                width: 171px;
+                height: 86px;
+            }
+            body h1{
+                text-align: center;
+            }
+            section{
+                flex-wrap: wrap; 
+                height: 100%;   
+            }
+            .title-img{
+            width:100%;
+            height: auto;
+            margin: 20px 0;
+            }
+            footer{
+                
+                flex-wrap: wrap;
+                
+            }
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <img class="logo" src="./logo-social.png" alt="" >
+        <h1>We are a Creative <br>Design Agency</h1>
+        <section>
+            <div class="left-card">
+                <img src="./1.jpg" alt="" class="title-img">
+                <h2 class="card-title">Spider-man</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus omnis eaque expedita quia! Debitis doloribus amet quasi harum illo quis nulla quo, iste beatae consequatur possimus expedita explicabo voluptate eius?</p>            
+            </div>
+                
+            
+            <div class="right-card">
+                <img src="./2.jpg" alt="" class="title-img">
+                <h2 class="card-title">Miles Morales</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus omnis eaque expedita quia! Debitis doloribus amet quasi harum illo quis nulla quo, iste beatae consequatur possimus expedita explicabo voluptate eius?</p>
+            </div>
+        </section>
+    </div>
+<footer>
+    <p>Create, Develop,Design</p>
+</footer>
+</body>
+</html>
